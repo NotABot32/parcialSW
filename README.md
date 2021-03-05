@@ -22,6 +22,7 @@ Esta aplicación tiene el propósito de gestionar la información de un marketpl
 Usted debe crear la lógica de aplicación que cubra las reglas de negocio para la entidad _CafeEntity_. Las reglas de negocio para crear un café son:
 
 * No pueden existir 2 cafés con el mismo nombre.
+* El peso debe ser un número entero mayor o igual a 250.
 * Las únicas presentaciones válidas son "grano" o "molido".
 
 (20%) Crear el método en la capa de lógica que valide las reglas de negocio y solicita persistir en caso de que todas pasen (sólo para el método crear).
