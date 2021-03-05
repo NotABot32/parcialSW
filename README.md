@@ -75,6 +75,23 @@ Body:
 Response: 414
 ```
 
+### Prueba 3. Creación incorrecta por peso no válido:
+
+```
+Method: POST
+URL: http://localhost:8080/s4_parcial-api/api/cafes
+Body:
+{
+    "nombre": "Café Juanambú",
+    "descripción": "El Café Juanambú se caracteriza por ser 100% café colombiano. Nuestro café proviene de las mejores regiones productoras del país."
+    "peso": 157.3,
+    "productor": "Orlando Perdomo Escandón",
+    "presentacion": "grano",
+    "lote": "LT2513830"
+}
+Response: 414
+```
+
 ## Entrega
 
 1. Agregue los pantallazos de las pruebas de Postman a la carpeta images de su repositorio
