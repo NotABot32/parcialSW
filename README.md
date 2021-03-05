@@ -11,7 +11,7 @@
 
 Esta aplicación tiene el propósito de gestionar la información de un marketplace de cafés especiales.
 
-(10%) Cree la entidad _CafeEntity_ en el paquete correspondiente. Un café tiene un nombre, una descripción, un peso (en gramos), el nombre del productor, una presentacioń (grano o molido), un lote de producción y un id de tipo _Long_ que representa su llave primaria.
+(10%) Cree la entidad _CafeEntity_ en el paquete correspondiente. Un café tiene un nombre, una descripción, un peso (en gramos), el nombre del productor, una presentación (grano o molido), un lote de producción y un id de tipo _Long_ que representa su llave primaria.
  
 (10%) Implemente la persistencia de la entidad.
  
