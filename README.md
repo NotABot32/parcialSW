@@ -9,9 +9,9 @@
 
 ## Punto 1 (30%). Persistencia
 
-Esta aplicación tiene el propósito de gestionar la información de un conjunto de fincas de recreo.
+Esta aplicación tiene el propósito de gestionar la información de un marketplace de cafés especiales.
 
-(10%) Cree la entidad _FincaEntity_ en el paquete correspondiente. Una finca tiene un nombre, una extensión (en metros cuadrados), un municipio al cual pertenece, un clima promedio, un numero de habitaciones, una calificación en número de estrellas y un id de tipo _Long_ que representa su llave primaria.
+(10%) Cree la entidad _CafeEntity_ en el paquete correspondiente. Un café tiene un nombre, una descripción, un peso (en gramos), el nombre del productor, una presentacioń (grano o molido), un lote de producción y  un id de tipo _Long_ que representa su llave primaria.
  
 (10%) Implemente la persistencia de la entidad.
  
@@ -19,9 +19,9 @@ Esta aplicación tiene el propósito de gestionar la información de un conjunto
 
 ## Punto 2 (40%). Lógica
 
-Usted debe crear la lógica de aplicación que cubra las reglas de negocio para la entidad _FincaEntity_. Las reglas de negocio para crear una finca son:
+Usted debe crear la lógica de aplicación que cubra las reglas de negocio para la entidad _CafeEntity_. Las reglas de negocio para crear un café son:
 
-* No pueden existir 2 fincas con el mismo nombre.
+* No pueden existir 2 cafés con el mismo nombre.
 * El número de habitaciones debe ser un entero mayor de cero.
 
 (20%) Crear el método en la capa de lógica que valide las reglas de negocio y solicita persistir en caso de que todas pasen (sólo para el método crear).
